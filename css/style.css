@@ -1,21 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 .fondo{
-    background-color: rgb(205, 158, 249);
+    background-color: rgb(238, 221, 255);
 }
 .container{
-    background-color: burlywood;
-    float: left;
+    text-align: center;
+    margin:2px;
+    height: 900px;
+    width: 28.5%;
+    background-color:#ffffff;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+    border-radius: 25px;
     
 }
 .principal{
-    background-color: rgb(135, 222, 158);
-    
-    
+    background-color:rgb(238, 221, 255);
+    margin: 1%;
 }
-
+.separador{
+    margin: 1%;
+    height: 2px;
+    background-color: #000000;
+}
 .foto{
-    width: 10%;
-    height: auto;
-    margin: 0 auto;
+    height:50%;
+    width: 50%;
     border-radius: 50%;
+    margin-top: 10px;
+}
+.cont-foto{
+    margin-top: 10px;
+    background-color:#ffffff;
+    text-align: center;
+}
+.text{
+    background-color: rgb(211, 245, 255);
+    text-align:justify;
+    padding: 10%;
+    border-radius: 5%;
+
+}
+.name{
+    text-align:justify;
+}
+.redes{
+    margin-top: 1px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.f-redes{
+    height:10%;
+    width: 20%;
+    margin-top: 10px;
+}
+.f-git{
+    height:10%;
+    width: 15%;
+    margin: 2.8%;
 }
