@@ -5,14 +5,13 @@
 .container{
     text-align: center;
     margin:2px;
-    height: 900px;
+    height: 55vw;
     width: 28.5%;
     background-color:#ffffff;
     display: inline-block;
     vertical-align: top;
     padding: 2%;
     border-radius: 25px;
-    
 }
 .principal{
     background-color:rgb(238, 221, 255);
@@ -51,6 +50,7 @@
     align-items: center;
 }
 .f-redes{
+    
     height:5%;
     width: 7%;
     margin-top: 10px;
@@ -60,3 +60,4 @@
     width: 5%;
     margin: 1.1%;
 }
+
