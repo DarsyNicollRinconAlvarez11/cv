@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 .fondo{
     background-color: rgb(238, 221, 255);
+    
 }
 .container{
     text-align: center;
-    margin:2px;
-    height: 100vw;
-    width: 28.5%;
+    margin: 10px;
+    height: 150vw;
+    width: 28%;
     background-color:#ffffff;
     display: inline-block;
     vertical-align: top;
@@ -16,7 +18,8 @@
 }
 .principal{
     background-color:rgb(238, 221, 255);
-    margin: 1%;
+    display: flex;
+    justify-content: center;
 }
 .separador{
     margin: 1%;
@@ -38,28 +41,33 @@
     background-color: rgb(211, 245, 255);
     text-align:justify;
     padding: 10%;
-    border-radius: 5%;
+    border-radius: 35px;
+    overflow: hidden;
 
 }
 .name{
-    text-align:justify;
+    text-align:center;
 }
 .redes{
-    margin-top: 1px;
-    text-align: left;
-    display: flex;
+    background-color: rgb(214, 203, 255);
     align-items: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 96%;
 }
+/* .red{
+    display: inline-block;
+} */
 .f-redes{
+    height:45px;
+    width: 45px;
     
-    height:5%;
-    width: 7%;
-    margin-top: 10px;
 }
 .f-git{
-    height:5%;
-    width: 5%;
-    margin: 1.1%;
+    height: 35px;
+    width: 35px;
 }
 .proyecto{
     background-color: rgb(211, 245, 255);
@@ -74,11 +82,14 @@
     border-radius: 5%;  
 }
 .tel{
-    height:5%;
-    width: 5%;
-    margin: 1.1%;
+    height:18px;
+    width: 18px;
 }
-.text-estudio {
+.tit-estudios{
+    background-color:rgb(214, 203, 255);
+    font-size: 16px;
+}
+.text-estudio{
     font-family: Arial, sans-serif; /* Tipo de letra */
     color: #333; /* Color del texto */
     font-size: 16px; /* Tamaño de la fuente */
@@ -86,4 +97,15 @@
     /* Otros estilos que desees aplicar */
     text-align:left;
 }
+.telefono{
+    color: #000000;
+    text-decoration: none;
+}
+.telefono:hover{
+    color: rgb(189, 46, 255);
+}
 
+.phoone{
+    text-align: center;
+    margin-bottom: 10px;
+}
