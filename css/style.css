@@ -5,13 +5,14 @@
 .container{
     text-align: center;
     margin:2px;
-    height: 55vw;
+    height: 100vw;
     width: 28.5%;
     background-color:#ffffff;
     display: inline-block;
     vertical-align: top;
     padding: 2%;
     border-radius: 25px;
+    overflow: hidden;
 }
 .principal{
     background-color:rgb(238, 221, 255);
@@ -33,7 +34,7 @@
     background-color:#ffffff;
     text-align: center;
 }
-.text{
+.perfil{
     background-color: rgb(211, 245, 255);
     text-align:justify;
     padding: 10%;
@@ -59,5 +60,30 @@
     height:5%;
     width: 5%;
     margin: 1.1%;
+}
+.proyecto{
+    background-color: rgb(211, 245, 255);
+    text-align:justify;
+    padding: 10%;
+    border-radius: 5%;  
+}
+.stacks{
+    background-color: rgb(211, 245, 255);
+    text-align:justify;
+    padding: 10%;
+    border-radius: 5%;  
+}
+.tel{
+    height:5%;
+    width: 5%;
+    margin: 1.1%;
+}
+.text-estudio {
+    font-family: Arial, sans-serif; /* Tipo de letra */
+    color: #333; /* Color del texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    font-weight:600; /* Grosor de la fuente */
+    /* Otros estilos que desees aplicar */
+    text-align:left;
 }
 
