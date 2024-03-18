@@ -2,12 +2,13 @@
 
 .fondo{
     background-color: rgb(238, 221, 255);
-    
-}
+
+    }
+
 .container{
     text-align: center;
     margin: 10px;
-    height: 150vw;
+    height: 200vw;
     width: 28%;
     background-color:#ffffff;
     display: inline-block;
@@ -15,7 +16,14 @@
     padding: 2%;
     border-radius: 25px;
     overflow: hidden;
+    transition: all 0.25s;
 }
+.container:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 10px 10px dimgray;
+
+}
+
 .principal{
     background-color:rgb(238, 221, 255);
     display: flex;
@@ -38,18 +46,30 @@
     text-align: center;
 }
 .perfil{
-    background-color: rgb(211, 245, 255);
+    background-color: rgb(255, 255, 255);
     text-align:justify;
     padding: 10%;
     border-radius: 35px;
     overflow: hidden;
-
+    font-family:"Times New Roman", serif; /* Tipo de letra */
+    color: #333; 
+    font-size: 16px; 
+    font-weight:400; 
 }
+.perfil:hover{
+    background-color: rgb(214, 203, 255);
+}
+
+.t-perfil{
+    color: #000000;
+    text-align:center;
+}
+
 .name{
     text-align:center;
 }
 .redes{
-    background-color: rgb(214, 203, 255);
+    background-color: rgb(255, 255, 255);
     align-items: center;
     border-radius: 50px;
     display: flex;
@@ -57,20 +77,23 @@
     padding: 2%;
     width: 96%;
 }
-/* .red{
-    display: inline-block;
-} */
+.redes:hover{
+    background-color: rgb(214, 203, 255);
+}
+.f-git:hover{
+    background-color: rgb(214, 203, 255);
+}
 .f-redes{
     height:45px;
     width: 45px;
-    
 }
+
 .f-git{
     height: 35px;
     width: 35px;
 }
 .proyecto{
-    background-color: rgb(211, 245, 255);
+    background-color: rgb(214, 203, 255);
     text-align:justify;
     padding: 10%;
     border-radius: 5%;  
@@ -84,22 +107,25 @@
 .tel{
     height:18px;
     width: 18px;
+    text-align:left;
 }
 .tit-estudios{
     background-color:rgb(214, 203, 255);
     font-size: 16px;
 }
 .text-estudio{
-    font-family: Arial, sans-serif; /* Tipo de letra */
-    color: #333; /* Color del texto */
-    font-size: 16px; /* Tamaño de la fuente */
-    font-weight:600; /* Grosor de la fuente */
-    /* Otros estilos que desees aplicar */
+    font-family:"Times New Roman", serif; /* Tipo de letra */
+    color: #333; 
+    font-size: 16px; 
+    font-weight:400; 
     text-align:left;
 }
 .telefono{
     color: #000000;
     text-decoration: none;
+    font-family:"Times New Roman", serif; /* Tipo de letra */
+    font-size: 16px; 
+    font-weight:400; 
 }
 .telefono:hover{
     color: rgb(189, 46, 255);
