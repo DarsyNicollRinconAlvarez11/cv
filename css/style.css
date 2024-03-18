@@ -135,3 +135,19 @@
     text-align: center;
     margin-bottom: 10px;
 }
+.pags{
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    width: 96%;
+}
+.paga:hover{
+    background-color: rgb(214, 203, 255);
+}
+.f-pags{
+    height:30px;
+    width: 30px;
+}
