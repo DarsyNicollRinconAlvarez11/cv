@@ -23,7 +23,6 @@
     box-shadow: 0 10px 10px dimgray;
 
 }
-
 .principal{
     background-color:rgb(238, 221, 255);
     display: flex;
@@ -51,8 +50,7 @@
     padding: 10%;
     border-radius: 35px;
     overflow: hidden;
-    font-family:"Times New Roman", serif; /* Tipo de letra */
-    color: #333; 
+    font-family:"Times New Roman", serif; 
     font-size: 16px; 
     font-weight:400; 
 }
@@ -96,7 +94,8 @@
     background-color: rgb(214, 203, 255);
     text-align:justify;
     padding: 10%;
-    border-radius: 5%;  
+    border-radius: 5%; 
+    font-family:"Times New Roman";  
 }
 .stacks{
     background-color: rgb(211, 245, 255);
@@ -114,7 +113,7 @@
     font-size: 16px;
 }
 .text-estudio{
-    font-family:"Times New Roman", serif; /* Tipo de letra */
+    font-family:"Times New Roman", serif; 
     color: #333; 
     font-size: 16px; 
     font-weight:400; 
@@ -123,8 +122,8 @@
 .telefono{
     color: #000000;
     text-decoration: none;
-    font-family:"Times New Roman", serif; /* Tipo de letra */
-    font-size: 16px; 
+    font-family:"Times New Roman"; 
+    font-size: 22px; 
     font-weight:400; 
 }
 .telefono:hover{
@@ -144,7 +143,7 @@
     padding: 2%;
     width: 96%;
 }
-.paga:hover{
+.pags:hover{
     background-color: rgb(214, 203, 255);
 }
 .f-pags{
